@@ -1,0 +1,75 @@
+:root {
+    --color-primary: #f4f4f4;
+    --color-btn-primary: #555;
+    --color-btn-secondary: #686D76;
+    --color-accent: #7b3ff2;
+    --color-text: #888;
+    --color-background: white;
+  }
+
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    border-radius: 10px;
+  }
+
+  .main{
+    border-radius: 10px;
+    background-color: var(--color-background);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .heading{
+    color: var(--color-btn-secondary);
+    margin-top: 10px;
+  }
+
+  .tabsList {
+    color: var(--color-btn-primary);
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 5rem;
+  }
+  
+  .tabItem:hover {
+    cursor: pointer;
+  }
+
+  .active {
+    margin: 0;
+    color: var(--color-accent);
+    border-radius: 5px;
+    border: .2px solid var(--color-btn-secondary);
+    font-weight: bold;
+  }
+
+  .tabItem {
+    box-sizing: border-box;
+    padding: 6px 16px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .close{
+    margin-top: 25px;
+  }
+  .close:hover{
+    cursor: pointer;
+  }

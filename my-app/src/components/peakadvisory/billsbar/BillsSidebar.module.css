@@ -1,0 +1,86 @@
+.container {
+    width: 100%;
+    max-width: 290px;
+    margin: auto;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 1rem;
+  }
+  
+  .tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    color: #988dba;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .active {
+    background-color: white;
+    border-radius: 12px;  
+    box-shadow: 0 0 5px rgba(0,0,0,0.05); 
+    color: #000;
+  }
+  
+  .billsList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+  }
+  
+  .billItem {
+    display: flex;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+    background-color: #fff;
+    align-items: center;
+  }
+  
+  .thumbnail {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    object-fit: cover;
+    border: 1px solid #eee;
+    border-radius: 4px;
+  }
+  
+  .billInfo {
+    display: flex;
+    flex-direction: column;
+    color: #807c9e;
+    font-size: 14px;
+  }
+  
+  .billTitle {
+    font-weight: 600;
+    color: #4d4a6d;
+    margin-bottom: 4px;
+  }
+  
+  .linkText {
+    font-weight: 600;
+    color: #6b3dfd;
+    margin-bottom: 4px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .billMeta {
+    font-size: 13px;
+    margin: 1px 0;
+  }
+  
